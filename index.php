@@ -20,6 +20,16 @@ and open the template in the editor.
             foreach ($arr as $key => $v){
                 echo 'key : '.$key.' = '.$v.'<br>';
             }
+            
+            echo '<hr>';
+            
+            $arr2 = ['aaa','bbb','ccc'];
+            print_r($arr2);
+            echo '<br>';
+            
+            for($x=0;$x<count($arr2);$x++){
+                echo $arr2[$x].'<br>';
+            }
         ?>
     </body>
 </html>
